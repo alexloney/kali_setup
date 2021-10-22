@@ -27,6 +27,12 @@ vim.
 sudo select-editor
 ```
 
+## Disable lock screen
+I find it quite annoying when my VM screen locks, especially since it's just on my desktop
+computer and not a laptop or computer of its own. To disable that, do the following:
+1. Go to **Settings** > **Power Manager** > **Security** and uncheck "Lock screen when system is going to sleep"
+2. Go to **Settings** > **Power Manager** > **Display** and uncheck "Power management" and set "Blank after" to "Never"
+
 ## Useful firefox extensions
 The following Firefox extensions are useful for various network based recon
 * https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
