@@ -142,7 +142,7 @@ set autoread
 set backspace=indent,eol,start
 
 " Directory to store backup files
-set backupdir=~/.cache/vim
+"set backupdir=~/.cache/vim
 
 " Display a confirmation dialog when closing an unsaved file
 set confirm
