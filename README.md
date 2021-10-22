@@ -15,7 +15,7 @@ alias sautorecon='sudo $(which autorecon)'
 ```
 
 ## Passwordless sudo
-Add the following to the sudoers file with `sudo visudo` to enable passwordless sudo
+Add the following to the END of the sudoers file. Use `sudo visudo` to begin editing
 ```
 kali    ALL=(ALL) NOPASSWD: ALL
 ```
