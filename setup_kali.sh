@@ -1,29 +1,9 @@
 #/bin/bash
 
-## Manual steps
-# 
-# Add the following to your .zshrc
-#   alias sautorecon='sudo $(which autorecon)'
-#
-# Add the following to sudoers with `sudo visudo`
-#   kali    ALL=(ALL) NOPASSWD: ALL
-#
-# Change the default password with
-#  passwd
-#
-# Change default editor with
-#  sudo select-editor
-#
-# Firefox Extensions:
-#  https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
-#  https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/
-
-
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install -y python3 python3-pip python3-venv seclists gobuster
-sudo apt install -y seclists curl enum4linux feroxbuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
+sudo apt install -y python3 python3-pip python3-venv seclists gobuster seclists curl enum4linux feroxbuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
 wget https://raw.githubusercontent.com/alexloney/kali_setup/main/.vimrc
 
