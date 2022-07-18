@@ -18,7 +18,7 @@ sudo update-alternatives --config java
 
 Basically, you need to add a link to the sources.list and also set it as trusted.
 ```
-sudo echo 'deb http://cz.archive.ubuntu.com/ubuntu bionic main universe' >> 
+sudo echo 'deb http://cz.archive.ubuntu.com/ubuntu bionic main universe' >> /etc/apt/sources.list
 sudo apt update
 sudo apt remove libturbojpeg0
 sudo apt install libwebkitgtk-1.0-0
